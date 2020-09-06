@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+}
+
+.brand {
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 10px;
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* border: solid 1px black; */
+    justify-content: space-between;
+}
+
+.menu {
+    margin-right: 100px;
+    width: 60%;
+    justify-content: flex-end;
+    display: flex;
+    /* border: solid 1px black; */
+    /* width: 20%; */
+}
+
+.name {
+    color: #E47F69;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    /* border: solid 1px black; */
+}
+
+.menu-items {
+    color: #a03951;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.img1 {
+    margin: auto;
+    width: 300px;
+}
+
+.part1 {
+    background-color: white;
+    height: 300px;
+    margin: 0px;
+    width: 50%;
+    color: rosybrown;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.p1 {
+    font-size: 30px;
+    width: fit-content;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 120px 10px;
+    justify-content: center;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+    color: rosybrown;
+}
+
+.khoangtrang {
+    height: 50px;
+}
+
+.title1 {
+    background-color: white;
+    height: 50px;
+    margin: auto;
+    width: 100%;
+    color: rosybrown;
+    text-align: center;
+}
+
+.content {
+    background-color: rgb(252, 250, 248);
+}
+
+.title2 {
+    color: rgb(82, 79, 79);
+    text-decoration: none;
+    padding: 10px;
+    font-size: 25px;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.p2 {
+    color: rgb(31, 30, 30);
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer {
+    background-image: url(./a90e8a01a18b87d6a26bf48b070828381f30fd0f.jpg);
+    width: 100%;
+    margin-top: 0px;
+    padding: 0px;
+    display: flex;
+    height: 300px;
+}
+
+.img2 {
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+
+.p3 {
+    height: 300px;
+    margin: 20px;
+    padding: 70px 50px;
+    width: 70%;
+    color: rgb(14, 13, 13);
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.fas {
+    color: #f89fa6;
+}
+
+.card-list {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 30px;
+}
+
+.card-item {
+    flex: 25%;
+    padding: 0px 15px;
+    margin-bottom: 50px;
+}
+
+.item-info {
+    line-height: 40px;
+    padding: 20px;
+    background-color: #faeded;
+}
+
+.item {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.card-item:hover .img2 {
+    transform: scale(1.2);
+}
+
+.tentruyen {
+    font-size: 25px;
+    width: fit-content;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    justify-content: center;
+    font-weight: 100;
+    color: rgb(153, 67, 67);
+}
+
+hr {
+    border-top: 1px solid rgb(145, 118, 118);
+    margin: 30px 10px 30px 10px;
+}
+
+.author {
+    font-size: 16px;
+    width: fit-content;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    color: rgb(70, 68, 68);
+}
+
+.part2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.hr-div {
+    width: 100%;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.hr-div hr {
+    border-top: 1px dotted rgb(218, 94, 102);
+}
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    align-items: center;
+}
+
+.categories a {
+    width: max-content;
+}
+
+.phan-chia {
+    font-size: 30px;
+}
+
+.hr-div1 {
+    width: 100%;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.hr-div1 hr {
+    border-top: 1px solid rrgb(65, 62, 62)
+}
